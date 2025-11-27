@@ -62,7 +62,7 @@ def main_third_script():
         print(f"Факториал числа {s} равен {compute_factorial(n)}")
 
 
-def main():цццц
+def main():
     num = input("Введите номер скрипта: 1-квадратное уравнение, 2-палиндром, 3-факториал: ")
     if num == "1":
         main_first_script()
