@@ -2,7 +2,7 @@ from math import sqrt
 
 def square_eq_solver(a, b, c):
     result = []
-    discriminant = b * b - 4 / a * c
+    discriminant = b * b - 4 * a * c
 
     if discriminant < 0:
         return result
@@ -62,7 +62,7 @@ def main_third_script():
         print(f"Факториал числа {s} равен {compute_factorial(n)}")
 
 
-def main():
+def main():цццц
     num = input("Введите номер скрипта: 1-квадратное уравнение, 2-палиндром, 3-факториал: ")
     if num == "1":
         main_first_script()
